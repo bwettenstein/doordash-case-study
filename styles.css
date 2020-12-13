@@ -2,23 +2,15 @@
   line-height: 1.6;
 }
 
-body {
-  /* background: #f3f3f3; */
-}
-
 p,
 li,
 .problem-statement {
   font-size: 1.2rem;
-  font-weight: 250;
+  font-weight: 300;
 }
 
 .findings {
   color: #ffff;
-}
-
-.findings p {
-  font-weight: 300;
 }
 
 .bold {
