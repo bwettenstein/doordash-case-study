@@ -1,0 +1,53 @@
+* {
+  line-height: 1.6;
+}
+
+body {
+  /* background: #f3f3f3; */
+}
+
+p,
+li,
+.problem-statement {
+  font-size: 1.2rem;
+  font-weight: 250;
+}
+
+.findings {
+  color: #ffff;
+}
+
+.findings p {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.big-img {
+  min-height: 480px;
+  min-width: 720px;
+  max-height: 768px;
+  max-width: 1200px;
+  height: auto;
+  width: auto;
+  border: solid 1px transparent;
+  border-radius: 20px;
+}
+
+.persona-img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+}
+
+.flow-img {
+  height: 500px;
+  width: 600px;
+  object-fit: contain;
+}

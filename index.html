@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Case Study: DoorDash</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Line breaks to get the image spaced from the top -->
+      <br /><br />
+      <div class="row">
+        <img
+          src="./img/preview-img.png"
+          alt="communication-matters"
+          class="big-img"
+        />
+        <!-- Image here -->
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <h4>Overview</h4>
+        <p>
+          Throughout the Covid-19 pandemic, Doordash has seen its business
+          <span class="CITE THIS BEFORE YOU SUBMIT">booming</span>, as many have
+          turned to food delivery services to reduce the number of people they'd
+          come in contact with normally. During the pandemic, communication
+          between users and their dashers is essential, especially for those who
+          have pre-existing conditions that put them at a greater risk for
+          contracting Covid-19. Currently, users are forced to use a text
+          messenger that provides no info about whether or not your message was
+          seen, or even delivered.
+        </p>
+      </div>
+      <!-- Research -->
+      <h2>Research</h2>
+      <div class="divider"></div>
+      <div class="section">
+        <!-- Surveys -->
+        <h4>Surveys</h4>
+        <p>
+          The first research method used was a survey that focued on asking
+          about users's experience communicating with their Dasher's through the
+          Doordash app. It also asked basic demographic information such as age
+          and how often they've used the app since lockdown was initiated. The
+          survey was made through Google Forms and sent to Piaza, Snapchat,
+          Instagram, and Facebook.
+        </p>
+      </div>
+      <div class="section">
+        <!-- App Reviews -->
+        <h4>App Store Reviews</h4>
+        <p>
+          To get an idea of how often miscommunication issues would occur, I
+          collected Doordash reviews posted in the past 24 hours. For the scope,
+          I chose reviews posted in the last 30 days because they were very
+          recent. The reviews were parsed by looking up key phrases such as
+          "miscommunication", "confusing", "communication", and "wrong order."
+          This was done to not only figure out how often communication issues
+          arised, but also some of the factors surrounding them.
+        </p>
+        <!-- Image of app review -->
+        <h1>image here</h1>
+      </div>
+      <!-- Maybe add interviews????? Interviews -->
+      <div class="section"></div>
+      <!-- Findings -->
+      <div class="section">
+        <h4>Findings</h4>
+        <div class="row">
+          <div class="col s10 m6 x14">
+            <div class="card red lighten-1">
+              <div class="card-content">
+                <span class="card-title white-text bold">41%</span>
+                <p class="white-text">
+                  of users have difficulty finding their dasher's contact
+                  information.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s10 m6 x14">
+            <div class="card red lighten-1">
+              <div class="card-content">
+                <span class="card-title white-text">70%</span>
+                <p class="white-text">
+                  of users weren't informed about what Covid-19 precautions
+                  their dasher was taking.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s10 m6 x14">
+            <div class="card red lighten-1">
+              <div class="card-content">
+                <span class="card-title white-text bold">50%</span>
+                <p class="white-text">
+                  of users had at least 2 instances of miscommunication between
+                  them and their dasher during the pandemic.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s10 m6 x14">
+            <div class="card red lighten-1">
+              <div class="card-content">
+                <span class="card-title white-text">34%</span>
+                <p class="white-text">
+                  of reviews mention that their dasher never received their
+                  messages.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Define -->
+      <h2>Define</h2>
+      <div class="divider"></div>
+
+      <!-- Personas -->
+      <div class="section">
+        <h4>Personas</h4>
+        <!-- Michael -->
+        <div class="row">
+          <div class="col s10 m6 x14 center">
+            <img
+              src="./img/michael.png"
+              alt="michael-persona"
+              class="persona-img"
+            />
+            <p class="bold">Michael</p>
+          </div>
+          <div class="col s10 m6 x14 center">
+            <p class="italic">
+              "It's pretty difficult to order food from campus because of how
+              crowded it is. There's this parking lot I'm trying to tell
+              dasher's to meet me at because it's empty and close to where I
+              live. I don't know if my message ever gets sent or received
+              though."
+            </p>
+          </div>
+        </div>
+
+        <!-- Judy -->
+        <div class="row">
+          <div class="col s10 m6 x14 center">
+            <img
+              src="./img/judy.png"
+              alt="michael-persona"
+              class="persona-img"
+            />
+            <p class="bold">Judy</p>
+          </div>
+          <div class="col s10 m6 x14 center">
+            <p class="italic">
+              "I'm immunocompromised and I don't know if my dasher has tested
+              negative for Covid. There's also a lot of traffic near my
+              building, so I need to communicate a specific pickup location with
+              my dasher in order to avoid a long walk to pickup food. But, the
+              messaging never works so I always have to go on a long walk."
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Pain points -->
+      <div class="section">
+        <p>
+          Based off my research, I was able to form a few pain points that would
+          fuel the redesign.
+        </p>
+        <h4>Pain Points</h4>
+        <li>Difficulty finding contact info for dashers</li>
+        <li>Confusion as to whether your message was ever sent or received.</li>
+        <li>Jarring that there's no way to message a dasher in the app</li>
+      </div>
+      <!-- Problem statement -->
+      <div class="section">
+        <!-- Problem statement MAYBE MOVE THIS DOWN-->
+        <h4>Problem statement</h4>
+        <p class="bold">
+          For users with pre existing conditions that make them more susceptible
+          to contracting, and experiencing the negative effects of Covid than
+          others, they have no choice but to get their food from delivery
+          services. Hence, miscommunication between dashers and users present
+          needless risks and frustrations during an already stressful time.
+        </p>
+      </div>
+
+      <h2>Forming ideas</h2>
+      <div class="divider"></div>
+      <div class="section">
+        <h4>Competitive Analysis</h4>
+        <p>
+          In order to analyze the communication issues that are present in, or
+          that aren’t present, in apps similar to Doordash, I analyzed three of
+          its competitors: Postmates, Uber Eats, and Grubhub.
+        </p>
+        <p>
+          Postmates is the 2nd oldest delivery platform that was analyzed and
+          has been one of the most active communicators during the Covid
+          pandemic. Something Postmates does well that other services lack is
+          the fact that drivers can select, and notify, users in response to
+          their delivery instructions. However, Postmates also suffers from
+          difficulty communicating with their driver as they’re inconsistent
+          with when and how you’re able to contact and give delivery
+          instructions.
+          <span class="bold"
+            >Users should be able to get some form of feedback when their
+            delivery instructions are read, or when they can’t be followed.
+            Postmates's meaningful feedback should be incororated in
+            communication between users and dashers.</span
+          >
+        </p>
+        <p>
+          After looking at Postmates, I shifted my sites on Uber Eats. During
+          the pandemic, Uber requires all drivers to verify that they’re wearing
+          a face mask in order to start accepting deliveries. Hence, users know
+          that their driver has been verified as wearing a mask. Uber eats also
+          reveals recent feedback that drivers have received such as their
+          delivery was without hassle, or their delivery was impeded by the
+          driver ignoring delivery instructions.
+          <span class="bold"
+            >Users should be able to see that their dasher is following Covid-19
+            protocols and they should also be able to see more information about
+            their dasher.
+          </span>
+        </p>
+        <p>
+          From Postmates, Grubhub was the next business of analysis. Grubhub
+          makes delivery instructions clear to dashers, as they’re emphasized on
+          the screen before the driver confirms a successful order. On the
+          chance that an order was mistaken, Grubhub offers 24/7 customer
+          support; however, it’s important to note that contacting customer
+          support through the app could be improved.
+          <span class="bold">
+            Users should have their messages and delivery instructions more
+            salient to dashers in order for them to be correctly recognized.
+          </span>
+        </p>
+        <img
+          src="./img/competitiveAnalysis.png"
+          alt="competitive-analysis"
+          class="big-img"
+        />
+      </div>
+      <div class="section">
+        <h4>User Flows</h4>
+        <p>
+          I created 2 flows for the 2 different solutions I had in mind to solve
+          existing problems. The first flow was aimed at users and revolves
+          around an
+          <span class="bold"
+            >interactive, in-app messenger that gives meaningful feedback.</span
+          >
+          It's based off existing messengers such as Facebook Messenger and
+          iMessage because those are well liked and provide feedback when their
+          messages are sent, received, and seen. Also, a pop up screen appears
+          forcing the user to
+          <span class="bold"
+            >awknowledge that their dasher is on the move and might not be able
+            to reply to their messages.</span
+          >
+          Furthermore, dasher profiles were also added to show basic information
+          about their dasher such as recent reviews.
+        </p>
+        <p>
+          The second flow focuses on the dashers and aims to fix issues with
+          delivery instructions. Dashers are
+          <span class="bold">
+            forced to awknowledge delivery instructions
+          </span>
+          and feedback is sent back to the user when their instructions have
+          been received. If there's a problem, dashers can indicate that instead
+          of ignoring it. Instructions can be flagged by dashers and returned to
+          users for more clarity.
+        </p>
+      </div>
+      <h5>Flow 1: Dasher Profile and In-App Messenger</h5>
+      <img src="./img/flow1.png" alt="flow-1" class="big-img" />
+      <!-- Feedback flow 1 -->
+      <p>
+        <span class="bold">Feedback on flow 1</span>
+      </p>
+      <!-- Positive feedback flow 1 -->
+
+      <p>
+        <span class="green-text bold">+</span>
+        Feedback was <span class="bold">meaningful</span> and made users feel
+        like their <span class="bold"> communication had weight</span>
+      </p>
+
+      <p>
+        <span class="green-text bold">+</span>
+        Very <span class="bold">simple to use and navigate</span>, clearly took
+        inspiration from other messaging apps
+      </p>
+
+      <p>
+        <span class="green-text bold">+</span>
+        <span class="bold">Useful to know that the dasher is on the move</span>,
+        so they're probably unable to reply to the message.
+      </p>
+
+      <!-- Negative Feedback flow 1 -->
+      <p>
+        <span class="red-text bold">-</span>
+        The popup to awknowledge that a dasher is on the move is too overkill,
+        there should be a
+        <span class="bold">more subtle way of getting this point across.</span>
+      </p>
+
+      <h5>Flow 2: Delivery Instructions</h5>
+      <img src="./img/flow2.png" alt="flow-12" class="big-img" />
+      <!-- Feedback flow 2 -->
+      <p>
+        <span class="bold">Feedback on flow 2</span>
+      </p>
+      <p>
+        <span class="green-text bold">+</span>
+        Liked how delivery instructions couldn't be ignored, they
+        <span class="bold">had to be awknowledged in some way</span>
+      </p>
+      <p>
+        <!-- Negative Feedback flow 1 -->
+        <span class="red-text bold">-</span>
+        Didn't like how
+        <span class="bold"
+          >users couldn't flag their instructions and it was only left to
+          dashers.</span
+        >
+        Users should be able to mark the importance of delivery instructions for
+        factors such as health or just convenience for the dasher.
+      </p>
+      <p>
+        <span class="red-text bold">-</span>
+        Too ambitious for its own good. It's unclear what the consequences are
+        if a dasher marks that they can fulfill the instructions, but still
+        choose not to. Users expressed concern that this would
+        <span class="bold">cause an extended back-and-forth</span> and it would
+        <span class="bold"
+          >be easier to resolve instruction disputes through the in-app
+          messenger from flow 1</span
+        >.
+      </p>
+      <h4>Takeaways</h4>
+      <p>
+        Looking at the reception of both flows, it was clear that adding a
+        communication system that emphasized feedback was the way to go. Of the
+        four people who were interviewed about both flows,
+        <span class="bold"
+          >all of them not only preferred flow 1 over flow 2</span
+        >, but also they cited the feedback as a positive in both flows. Flow 1
+        was hailed as
+        <span class="bold"
+          >accomplishing its goal in a very clear and simple way</span
+        >, while flow 2 was called
+        <span class="bold"
+          >far too ambitious and was prone to other problems</span
+        >. One participant even mentioned that they could see flow 2 as
+        something that would
+        <span class="bold"
+          >cause more problems, than solving existing ones.</span
+        >
+        The overall reception told me that the rest of the redesign should focus
+        on flow 1 and improving on what was already existing.
+      </p>
+
+      <!-- Point of view -->
+      <h4>Point of view</h4>
+      <p>
+        I believe that I’ve succeeded in my goal of creating a messaging system
+        that minimizes miscommunication by providing users with detailed
+        feedback and an interface that resembles the most successful messaging
+        app platforms. From the user testing, all of the participants
+        complimented the feedback and found that the knowledge of apps such as
+        iMessage and Facebook Messenger transferred over to make this messaging
+        system easy to understand.
+        <br />
+        With prototype 2, I believe that I have work to do on the implementation
+        of getting delivery instructions to be acknowledged. From the testing,
+        it was clear that forcing drivers to acknowledge delivery instructions
+        was a success; however, the implementation on the dasher’s side
+        definitely needs a revamp.
+      </p>
+
+      <!-- Going forward -->
+      <h4>Going Forward</h4>
+      <p>
+        Going forward, I intend on focusing on prototype 1, as that got far more
+        positive feedback than prototype 2. The feedback from one participant on
+        prototype 2 basically mirrors my thought process and why I’m choosing
+        not to proceed with it anymore, it’s simply too ambitious. I think that
+        focusing my efforts on something that has the highest chance of success
+        and has received the most positive feedback is the best course of action
+        moving forward. With prototype 1, I’d look to add other aspects to the
+        messenger that would add to what users positively responded to. From my
+        research, they positively responded to the feedback, so emphasizing and
+        improving that would be my priority. Focusing on the feedback, some
+        participants disliked the popup screen and felt that it was too invasive
+        and broke up the simplicity of the flow. As the prototype is improved,
+        figuring out
+        <span class="bold"
+          >how to deliver feedback that is both meaningful and
+          non-invasive</span
+        >
+        would be key to a successful final prototype.
+      </p>
+      <h2>High Fidelity Prototype</h2>
+      <div class="divider"></div>
+      <div class="section">
+        <p>
+          With the prototype, I changed font weights and colors accordingly
+          based on the existing Doordash style. Currently, the Doordash app
+          relies on white backgrounds and black, grey, or red text. Going back
+          to user's pain points, this prototype seeks to fix them. Dashers and
+          users are able to communicate in a far easier way than they used to,
+          as before they were forced to use their phone’s default text messaging
+          system. The problem with this being that these systems often lack
+          meaningful feedback and leave the user in the dark. With this
+          prototype, the user is told when their dasher is on the move and given
+          meaningful feedback such as when their message has been sent and read.
+          <br />
+          <br />
+          Furthermore, there's a note at the top of the messenger that lets
+          users know that if dasher is currently moving and can't reply to their
+          message. This is done as a refinement for its previous iteration that
+          users thought was invasive.
+        </p>
+        <h4>Prototype Screens</h4>
+        <!-- First row of prototype flow images -->
+        <div class="row">
+          <div class="col s10 m6 x14">
+            <img src="./img/map-img.png" alt="map-img" class="flow-img" />
+          </div>
+          <div class="col s10 m6 x14">
+            <img
+              src="./img/dasher-profile.png"
+              alt="dasher-profile-img"
+              class="flow-img"
+            />
+          </div>
+        </div>
+        <!-- Second row of prototype flow images -->
+        <div class="row">
+          <div class="col s10 m6 x14">
+            <img src="./img/sent1.png" alt="sent1-img" class="flow-img" />
+          </div>
+          <div class="col s10 m6 x14">
+            <img src="./img/sent2.png" alt="sent2-img" class="flow-img" />
+          </div>
+        </div>
+      </div>
+      <h2>Final Touches</h2>
+      <div class="divider"></div>
+      <div class="section">
+        <p>
+          When showing the first prototype to the four people who I had for user
+          testing on the original prototype, they pointed out a few minor
+          adjustments to improve the prototype. One was the lack of a back
+          button on the Dasher Profile screen because it was unclear how to
+          leave the screen. Fixing this only took pasting the back button that
+          existed in the messenger screens. Additionally,
+          <span class="bold">3 of the 4</span>
+          participants pointed out that the font size that notified users that
+          their dasher might be on the move, was far too small compared to the
+          rest of the screen and hindered readability. On the same note, the
+          same participants said that the combination of white and red made it
+          difficult to read the text.
+          <span class="bold">2 of those participants</span> specifically pointed
+          out the messenger screen where the message sent by the user is white
+          and wrapped in a red filled background.
+          <br />
+          <br />
+          <span class="bold">2 participants</span> also pointed out that it
+          would be even more helpful to get more details about the dasher's
+          location through the in-app messenger. Doing so would save time, so
+          all they'd have to do is remain on the messenger page instead of going
+          back and forth. Furthermore,
+          <span class="bold">1 participant</span> touched the highlighted
+          reviews in the Dasher profile section because they thought it was a
+          button. To fix this, I eliminated the section completely and shifted
+          the profile elements accordingly. I was left with a giant white space
+          at the top of the profile, so I added a section that would specify
+          when the dasher's last negative Covid test was and an awknowledgement
+          that they're taking Covid prevention protocols.
+        </p>
+        <img
+          src="./img/before-after-1.png"
+          alt="before-after-1"
+          class="big-img"
+        />
+        <img
+          src="./img/before-after-2.png"
+          alt="before-after-2"
+          class="big-img"
+        />
+        <!-- Final prototype images -->
+        <h4>The Final Prototype</h4>
+        <img
+          src="./img/final-prototype.png"
+          alt="final-prototype"
+          class="big-img"
+        />
+        <h4>Impact</h4>
+        <p class="bold">
+          Presents relevant info about the dasher to users including their last
+          negative Covid test, awknowledgement that they're following Covid
+          protocols, and reviews. This mitigates user concerns about the health
+          of their dasher and if their dasher is taking proper precautions.
+          <br /><br />
+          A communication that exists in the app itself, instead of another one.
+          Communication will become easier to navigate to, as users don't have
+          to jump outside the app to contact their dasher. Information about
+          their dasher's information is also displayed, so users don't have to
+          jump back and forth between sections of the app.
+          <br /><br />
+          Communication feedback that tells the user when their messages are
+          sent, received, and read. This builds off successful messaging apps
+          such as iMessage in order to give users the same positive experience
+          those apps provide.
+        </p>
+      </div>
+      <h2>Reflection</h2>
+      <div class="divider"></div>
+      <div class="section">
+        <p>
+          I'm very proud of what I was able to do, as this was my first case
+          study. I was able to use tools I hadn't used before such as Figma in
+          order to solve existing problems that users had with Doordash. There's
+          obviously a lot more that I can do to improve, but as a first try I'm
+          proud that I was able to diagnose existing issues and try to solve
+          them. Looking back, I'm shocked I was able to accomplish as much as I
+          did, especially because I was alone and research was a litle impaired
+          because of the pandemic.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
